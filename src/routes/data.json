@@ -1,0 +1,144 @@
+{
+  "name": "Rayan Altamimi",
+  "title": "Software Engineer, Full Stack Web Developer",
+  "summary": "A Software Engineer with six years of experience in backend web development seeking job opportunities in an environment where I can contribute to the software industry and gain experience in new technologies.",
+  "contact": {
+    "email": "rayantaw@gmail.com",
+    "phone": "+966597688677",
+    "location": "Riyadh, Saudi Arabia",
+    "linkedin": "linkedin.com/in/altamimir",
+    "github": "github.com/rynartisan"
+  },
+  "experience": [
+    {
+      "title": "Software Development Specialist",
+      "company": "TAHAKOM",
+      "date": "08/2023 - Present",
+      "location": "Riyadh, Saudi Arabia",
+      "responsibilities": [
+        "Lead technical teams and architect backend solutions for enterprise-scale platforms.",
+        "Design and implement computer vision and AI-based solutions using Nvidia frameworks.",
+        "Establish and maintain DevOps practices including CI/CD pipelines.",
+        "Develop reusable components and establish coding standards for team adoption."
+      ],
+      "key_projects": [
+        {
+          "name": "RIPC Platform",
+          "description": "A centralized digital platform for coordinating infrastructure projects across Riyadh city. Enables contractors to register, obtain approvals, and submit project plans while facilitating communication between utility companies, contractors, and city authorities. Prevents redundant construction work and optimizes infrastructure development timelines.",
+          "date": "2023-2024"
+        },
+        {
+          "name": "Automated Vehicle Insurance Violation",
+          "description": "Smart traffic enforcement system that uses roadside cameras with edge computing to detect uninsured vehicles in real-time. Automatically verifies license plates against insurance databases and generates violations for non-compliant vehicles, ensuring round-the-clock monitoring of insurance requirements.",
+          "date": "2023-2024"
+        }
+      ]
+    },
+    {
+      "title": "Sr. Software Engineer",
+      "company": "TAHAKOM",
+      "date": "07/2021 - 08/2023",
+      "location": "Riyadh, Saudi Arabia",
+      "responsibilities": [
+        "Design and implement scalable backend solutions for government sector platforms.",
+        "Lead database architecture and optimization initiatives.",
+        "Establish technical specifications and development roadmaps.",
+        "Guide cross-functional teams in implementing complex system integrations."
+      ],
+      "key_projects": [
+        {
+          "name": "TGA Objection Platform",
+          "description": "Web-based system enabling violators to submit and manage transportation law violation objections electronically. Features automated workflows for case review, evidence submission, and decision notification, with real-time tracking and comprehensive dashboards for full process transparency.",
+          "date": "2021-2023"
+        },
+        {
+          "name": "Automated TGA Violations",
+          "description": "AI-powered traffic enforcement system using computer vision to detect commercial vehicles operating without valid TGA licenses. Performs automated compliance checks against regulations and issues violations in real-time, with integrated notification delivery.",
+          "date": "2022"
+        }
+      ]
+    },
+    {
+      "title": "ERP System Analyst, SAP FI/CO Consultant",
+      "company": "SABIC, Global ERP",
+      "date": "07/2017 - 07/2021",
+      "location": "Riyadh, Saudi Arabia",
+      "responsibilities": [
+        "Develop and maintain SAP modules including SD, FI/CO, and FIORI applications.",
+        "Implement system configurations for SAP Authorization.",
+        "Provide technical consultation for enterprise-wide SAP implementations.",
+        "Lead user training initiatives and system documentation efforts."
+      ],
+      "key_projects": [
+        {
+          "name": "SAP MDG Implementation",
+          "description": "Implemented SAP Master Data Governance system to centralize and standardize master data management. Features automated workflows for data validation, approval processes, and governance policies, ensuring consistent data standards across the organization.",
+          "date": "2019"
+        }
+      ]
+    },
+    {
+      "title": "Full Stack Web Developer",
+      "company": "Beehive Co-working Space Company",
+      "date": "12/2017 - 12/2020",
+      "location": "Riyadh, Saudi Arabia",
+      "responsibilities": [
+        "Business analysis.",
+        "Frontend and backend system development.",
+        "Database structure design, deployment, and maintenance.",
+        "Testing and quality assurance.",
+        "Integration with external systems.",
+        "Deployment and server management."
+      ],
+      "key_projects": [
+        {
+          "name": "Workspace Management System",
+          "description": "Comprehensive booking system for co-working spaces and private offices featuring real-time availability tracking, automated billing, and intuitive booking interface. Includes workspace categorization, automated notifications, and reporting dashboards for improved space utilization.",
+          "date": "2018-2020"
+        }
+      ]
+    }
+  ],
+  "technical_skills": [
+    {
+      "title": "Programming Languages",
+      "items": ["Java", "JavaScript", "TypeScript", "PHP", "Python"]
+    },
+    {
+      "title": "Frameworks & Libraries",
+      "items": ["Laravel", "Spring Boot", "Spring Framework"]
+    },
+    {
+      "title": "DevOps & Containerization",
+      "items": ["Docker/Podman", "Bamboo CI/CD", "Git"]
+    },
+    {
+      "title": "Databases",
+      "items": ["SQL Server"]
+    },
+    {
+      "title": "AI & Media Processing",
+      "items": ["Nvidia DeepStream"]
+    }
+  ],
+  "soft_skills": [
+    "Team Player",
+    "Self-Learner",
+    "Critical Thinking",
+    "Commitment",
+    "Problem Solving",
+    "Adaptability",
+    "Time Management"
+  ],
+  "education": {
+    "degree": "Bachelor of Science in Software Engineering",
+    "institution": "King Saud University, Riyadh, Saudi Arabia",
+    "date": "09/2013 - 06/2017",
+    "gpa": "4.72/5"
+  },
+  "languages": {
+    "Arabic": "Native",
+    "English": "Full Professional Proficiency",
+    "Japanese": "Elementary Proficiency"
+  }
+}

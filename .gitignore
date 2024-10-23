@@ -1,0 +1,5 @@
+asciiflowio.png
+.DS_Store
+/.idea/
+/.svelte-kit/
+/node_modules
