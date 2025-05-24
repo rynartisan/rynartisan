@@ -1,5 +1,7 @@
 <script lang="ts">
   import type { PageData } from './$types';
+  import { base } from '$app/paths';
+
 
   export let data: PageData;
 </script>
@@ -25,7 +27,7 @@
           Updated on: Oct 29, 2024
         </p>
         <img
-          src="/icons/qr.png"
+          src="{base}/icons/qr.png"
           alt="QR Code for digital resume"
           class="h-40 w-40"
         />
@@ -42,7 +44,7 @@
         <div class="flex gap-1">
           <dt class="h-5 w-5">
             <img
-              src="/icons/email.svg"
+              src="{base}/icons/email.svg"
               alt="Email"
               class="h-full w-full brightness-0 dark:brightness-100"
             />
@@ -54,7 +56,7 @@
         <div class="flex gap-1">
           <dt class="h-5 w-5">
             <img
-              src="/icons/mobile.svg"
+              src="{base}/icons/mobile.svg"
               alt="Mobile"
               class="h-full w-full brightness-0 dark:brightness-100"
             />
@@ -64,7 +66,7 @@
         <div class="flex gap-1">
           <dt class="h-5 w-5">
             <img
-              src="/icons/location.svg"
+              src="{base}/icons/location.svg"
               alt="Location"
               class="h-full w-full brightness-0 dark:brightness-100"
             />
@@ -74,7 +76,7 @@
         <div class="flex gap-1">
           <dt class="h-5 w-5">
             <img
-              src="/icons/linkedin.svg"
+              src="{base}/icons/linkedin.svg"
               alt="LinkedIn"
               class="h-full w-full brightness-0 dark:brightness-100"
             />
@@ -83,14 +85,15 @@
             <a
               href="https://{data.contact.linkedin}"
               target="_blank"
-              rel="noopener noreferrer">{data.contact.linkedin}</a
+              rel="noopener noreferrer"
+            >{data.contact.linkedin}</a
             >
           </dd>
         </div>
         <div class="flex gap-1">
           <dt class="h-5 w-5">
             <img
-              src="/icons/github.svg"
+              src="{base}/icons/github.svg"
               alt="Github"
               class="h-full w-full brightness-0 dark:brightness-100"
             />
@@ -99,7 +102,8 @@
             <a
               href="https://{data.contact.github}"
               target="_blank"
-              rel="noopener noreferrer">{data.contact.github}</a
+              rel="noopener noreferrer"
+            >{data.contact.github}</a
             >
           </dd>
         </div>
