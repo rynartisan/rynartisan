@@ -1,9 +1,10 @@
 <script lang="ts">
   import type { PageData } from './$types';
   import { base } from '$app/paths';
-
+  import { getLastModifiedDate } from '$lib/utils/date';
 
   export let data: PageData;
+  const updatedDate = getLastModifiedDate();
 </script>
 
 <svelte:head>
@@ -24,7 +25,7 @@
       </div>
       <div class="ml-4 hidden flex-col items-center md:flex print:flex">
         <p class="mb-2 text-center text-xs text-gray-500 dark:text-gray-500">
-          Updated on: Oct 29, 2024
+          Updated on: {updatedDate}
         </p>
         <img
           src="{base}/icons/qr.png"
