@@ -21,16 +21,16 @@
       <div class="flex-1">
         <h1 class="text-4xl">{data.name}</h1>
         <h3 class="text-2xl">{data.title}</h3>
-        <p class="hyphens-auto text-justify">{data.summary}</p>
+        <p>{data.summary}</p>
       </div>
       <div class="ml-4 hidden flex-col items-center md:flex print:flex">
-        <p class="mb-2 text-center text-xs text-gray-500 dark:text-gray-500">
+        <p class="text-center text-xs text-gray-500 dark:text-gray-500">
           Updated on: {updatedDate}
         </p>
         <img
           src="{base}/icons/qr.png"
           alt="QR Code for digital resume"
-          class="h-40 w-40"
+          class="h-28 w-28"
         />
         <p class="text-center text-xs text-gray-600 dark:text-gray-400">
           Scan code for updated CV
@@ -132,7 +132,7 @@
                   {job.company}
                 </p>
               </div>
-              <div class="text-right text-slate-600 dark:text-gray-400">
+              <div class="text-right text-xs text-slate-600 dark:text-gray-400">
                 <time datetime={job.date}>{job.date}</time>
                 <div>{job.location}</div>
               </div>
@@ -165,7 +165,7 @@
                       {project.date}
                     </span>
                   </div>
-                  <p class="hyphens-auto text-justify">
+                  <p>
                     {project.description}
                   </p>
                 </li>
