@@ -21,7 +21,7 @@
       <div class="flex-1">
         <h1 class="text-4xl">{data.name}</h1>
         <h3 class="text-2xl">{data.title}</h3>
-        <p>{data.summary}</p>
+        <p class="hyphens-auto text-justify">{data.summary}</p>
       </div>
       <div class="ml-4 hidden flex-col items-center md:flex print:flex">
         <p class="mb-2 text-center text-xs text-gray-500 dark:text-gray-500">
@@ -41,7 +41,9 @@
     <hr class="my-5" />
 
     <address class="mt-2">
-      <dl class="grid grid-cols-2 gap-2 md:grid-cols-3 print:grid-cols-3">
+      <dl
+        class="flex flex-col gap-3 sm:grid sm:grid-cols-2 md:grid-cols-3 print:grid-cols-3"
+      >
         <div class="flex gap-1">
           <dt class="h-5 w-5">
             <img
@@ -86,8 +88,7 @@
             <a
               href="https://{data.contact.linkedin}"
               target="_blank"
-              rel="noopener noreferrer"
-            >{data.contact.linkedin}</a
+              rel="noopener noreferrer">{data.contact.linkedin}</a
             >
           </dd>
         </div>
@@ -103,8 +104,7 @@
             <a
               href="https://{data.contact.github}"
               target="_blank"
-              rel="noopener noreferrer"
-            >{data.contact.github}</a
+              rel="noopener noreferrer">{data.contact.github}</a
             >
           </dd>
         </div>
@@ -119,7 +119,6 @@
         Professional Experience 💼
       </h3>
       {#each data.experience as job}
-        <hr class="my-4" />
         <article class="mb-2">
           <header>
             <div class="flex items-start justify-between">
@@ -166,7 +165,7 @@
                       {project.date}
                     </span>
                   </div>
-                  <p class="text-justify">
+                  <p class="hyphens-auto text-justify">
                     {project.description}
                   </p>
                 </li>
@@ -174,6 +173,7 @@
             </ul>
           </div>
         </article>
+        <hr class="my-4 last:hidden" />
       {/each}
     </section>
 
@@ -200,7 +200,11 @@
           class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
         >
           {#each data.soft_skills as skill}
-            <li class="ml-6 flex-1 list-disc">{skill}</li>
+            <li
+              class="relative ml-6 flex-1 list-none before:absolute before:-left-4 before:text-gray-500 before:content-['-']"
+            >
+              {skill}
+            </li>
           {/each}
         </ul>
       </section>
