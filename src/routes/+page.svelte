@@ -119,7 +119,7 @@
         Professional Experience 💼
       </h3>
       {#each data.experience as job}
-        <article class="mb-2">
+        <article class="mb-2 break-inside-avoid">
           <header>
             <div class="flex items-start justify-between">
               <div>
@@ -181,7 +181,7 @@
 
     <!-- Skills Section -->
     <div>
-      <section class="mb-2">
+      <section class="mb-2 break-inside-avoid">
         <h3 class="mb-4 text-2xl font-bold uppercase">Technical Skills 💻</h3>
         <ul class="space-y-1">
           {#each data.technical_skills as category}
@@ -194,7 +194,7 @@
       </section>
 
       <hr class="my-5" />
-      <section class="mb-2">
+      <section class="mb-2 break-inside-avoid">
         <h3 class="mb-4 text-2xl font-semibold uppercase">Soft Skills 🤝</h3>
         <ul
           class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
@@ -212,7 +212,7 @@
 
     <hr class="my-5" />
     <!-- Education Section -->
-    <section class="mb-2">
+    <section class="mb-2 break-inside-avoid">
       <h3 class="mb-4 text-2xl font-semibold uppercase">Education 🎓</h3>
       <article>
         <h4 class="text-xl font-semibold">{data.education.degree}</h4>
@@ -226,22 +226,16 @@
 
     <hr class="my-5" />
     <!-- Languages Section -->
-    <section class="mb-2">
+    <section class="mb-2 break-inside-avoid">
       <h3 class="mb-4 text-2xl font-semibold uppercase">Languages 🌐</h3>
-      <dl class="grid gap-4 sm:grid-cols-2">
+      <ul class="space-y-1">
         {#each Object.entries(data.languages) as [language, proficiency]}
-          <div
-            class="rounded-lg bg-stone-200 p-4 transition-colors hover:bg-stone-300 dark:bg-gray-800 dark:hover:bg-gray-700"
-          >
-            <dt class="mb-1 text-lg font-medium text-gray-900 dark:text-white">
-              {language}
-            </dt>
-            <dd class="text-sm text-gray-600 dark:text-gray-300">
-              {proficiency}
-            </dd>
-          </div>
+          <li>
+            <span class="font-semibold">{language}:</span>
+            {proficiency}.
+          </li>
         {/each}
-      </dl>
+      </ul>
     </section>
   </main>
 </div>
